@@ -49,3 +49,4 @@ While you're working on this task, you should document your findings in the same
 2. Fake a slow 3G connection and analyze the loading of the images. What do you observe?
 
 Add your findings to each of the pages you have created.
+ 
