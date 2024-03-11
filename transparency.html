@@ -1,2 +1,63 @@
-anar a gimp Imatge mode indexat  de 24 a 8 si anem a detalls de la imatge
-veurem la profunditat de colors 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Format Experiment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="bg-blue-500 text-white text-center p-5">
+      <h1 class="text-4xl">Image Format Experiment</h1>
+      <a href="logotip.html">Logotip</a>
+      <a href="plujaEstels.html">Pluja d'Estels</a>
+      <a href="postaDeSol.html">Posta de Sol</a>
+      <a href="transparency.html">Transparency</a>
+    </header>
+    <main
+      class="text-base text-center p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5"
+    >
+
+    <p>Original (png)</p>
+      <div>
+        <img src="images/transparency.png" alt="Example 1" class="w-full" />
+        <div class="image-info"></div>
+      </div>
+
+      <p>Compressió baixa (png)</p>
+      <div>
+        <img src="images/transparency_baixa_png.png" alt="Example 1" class="w-full" />
+        <div class="image-info"></div>
+      </div>
+      <p>Compressió mitjana (png)</p>
+      <div>
+        <img src="images/transparency_mitjana_png.png" alt="Example 1" class="w-full" />
+        <div class="image-info"></div>
+      </div>
+      <p>Compressió alta (png)</p>
+      <div>
+        <img src="images/transparency_alta_png.png" alt="Example 1" class="w-full" />
+        <div class="image-info"></div>
+      </div>
+
+      <p>JPG</p>
+      <div>
+        <img src="images/transparency.jpg" alt="Example 1" class="w-full" />
+        <div class="image-info"></div>
+      </div>
+
+      <p>GIF</p>
+      <div>
+        <img src="images/transparency.gif" alt="Example 1" class="w-full" />
+        <div class="image-info"></div>
+        <!-- <p>Ovservació: podem observar un granulat als requadres del logo (i tota la imatge) a més d'una quadrñicula negre al fons</p> -->
+      </div>
+
+    </main>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
